@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Simple Calculator 
+        </title>
+        <link rel="stylesheet" href="layout.css">
+    </head>
+    <body>
+        <h2>Simple Calculator Using Javascript</h2>
+       <div class="calc form">
+        <form name="form1">
+            <input type="text" name="results" id="calc">
+            <br>
+            <br>
+            <input type="button" value="1" onclick="form1.results.value=form1.results.value+'1'" class="button">
+            <input type="button" value="2" onclick="form1.results.value=form1.results.value+'2'" class="button">
+            <input type="button" value="3" onclick="form1.results.value=form1.results.value+'3'" class="button">
+            <input type="button" value="+" onclick="form1.results.value=form1.results.value+'+'" class="button">
+            <br>
+            <br>
+            <input type="button" value="4" onclick="form1.results.value=form1.results.value+'4'" class="button">
+            <input type="button" value="5" onclick="form1.results.value=form1.results.value+'5'" class="button">
+            <input type="button" value="6" onclick="form1.results.value=form1.results.value+'6'" class="button">
+            <input type="button" value="-" onclick="form1.results.value=form1.results.value+'-'" class="button">
+            <br>
+            <br>
+            <input type="button" value="7" onclick="form1.results.value=form1.results.value+'7'" class="button">
+            <input type="button" value="8" onclick="form1.results.value=form1.results.value+'8'" class="button">
+            <input type="button" value="9" onclick="form1.results.value=form1.results.value+'9'" class="button">
+            <input type="button" value="*" onclick="form1.results.value=form1.results.value+'*'" class="button">
+            <br>
+            <br>
+            <input type="button" value="0" onclick="form1.results.value=form1.results.value+'0'" class="button">
+            <input type="button" value="/" onclick="form1.results.value=form1.results.value+'/'" class="button">
+            <input type="button" value="." onclick="form1.results.value=form1.results.value+'.'" class="button">
+            <input type="button" value="=" onclick="form1.results.value=eval(form1.results.value)" class="button">
+            <br>
+            <input type="button" value="clear" id="clear" onclick="form1.results.value=''">
+            
+        </form>
+
+       </div>
+    </body>
+</html>
